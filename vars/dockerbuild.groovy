@@ -1,5 +1,5 @@
 def call() {
     sh '''
-        docker.build sample:0.1.0
+        docker build -t sample:0.1.0
     '''
 }
