@@ -1,5 +1,5 @@
 def call() {
     sh '''
-        dockerImage = docker.build sample:0.1.0
+        docker build -t resource/Dockerfile .
     '''
 }
