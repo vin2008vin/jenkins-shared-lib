@@ -1,5 +1,5 @@
 def call() {
     sh '''
-        docker build -t resources/Dockerfile .
+        docker build resources/Dockerfile .
     '''
 }
