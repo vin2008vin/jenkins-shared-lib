@@ -1,4 +1,4 @@
-import com.aws.example.cred*
+import com.aws.example.*
 
 def call() {
             sh ''' 
